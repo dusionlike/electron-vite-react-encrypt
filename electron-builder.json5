@@ -38,4 +38,5 @@
     target: ["AppImage", "deb"],
     artifactName: "${productName}-Linux-${version}.${ext}",
   },
+  "afterPack": "node_modules/electron-builder-encryptor"
 }
